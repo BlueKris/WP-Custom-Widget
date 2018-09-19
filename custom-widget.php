@@ -1,5 +1,7 @@
 /**************Custom Widget********************/
-# PHP 5.3+ anonymous function
+/* Creating a Custom widget with Text,Textare and Select
+add this code in functions.php
+*/
 add_action( 'widgets_init', function() {
     register_widget( 'Blue_widget' );
 });
